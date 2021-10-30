@@ -13,6 +13,16 @@ for(let i = 0; i < quantidadePremios; i++) {
     premios.push(prompt(`Informe o nome do Premio ${i+1}`));
 }*/
 
+function adicionarPessoa(){
+    let pessoa = document.getElementById("nomePessoa");
+    pessoas.push(pessoa.value);
+}
+
+function adicionarPremio(){
+    let premio = document.getElementById("nomePremio");
+    premios.push(premio.value);
+}
+
 function sortear(){
     
     let numeroPessoas = pessoas.length;
