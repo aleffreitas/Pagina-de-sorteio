@@ -11,23 +11,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body>    
 
     <section class="sorteio">
         <div class="container"> 
             <input id="nomePessoa" class="input" type="text" placeholder="Nome">
                 <button class="adicionar" onclick="adicionarPessoa()">Adicionar</button>
+                
             <input id="nomePremio"  class="input" type="text" placeholder="Prêmio">
                 <button class="adicionar" onclick="adicionarPremio()">Adicionar</button>
-            <h1 id="numero"></h1>
-            <h2 id="nome"></h2>
+            
             <button id="sortear" onclick="sortear()">SORTEAR</button>
         </div>
 
         <div class="mensagem">
-            <h1 id="final"></h1>
-        </div>
+            <h1 id="numero"></h1>
+            <h1 id="nome"></h1>
+            <h2 id="final"></h2>
+        </div>        
         
+        <div id="alerta"></div>
+
     </section>    
     
     <script src="./js/script.js"></script>

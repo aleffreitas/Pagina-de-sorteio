@@ -20,7 +20,6 @@ section{
 
 .container{
     width: 350px;
-    height: 100%;
     margin-top: 100px;    
     margin-left: auto;
     margin-right: auto;
@@ -29,27 +28,9 @@ section{
     border-radius: 10px;
 }
 
-.container h1{  
-    width: 90%;        
-    margin-left: auto;
-    margin-right: auto;
-    color: var(--white);
-    font-size: 80px;
-    margin-top: 10px;
-    margin-bottom: -15px;
-}
-
-.container h2{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    color: var(--white);
-    font-size: 60px;
-}
-
 .input{
     width: 50%;
-    height: 50px;
+    padding: 15px;
     border-radius: 5px;
     border: 2px solid var(--green);
     margin-top: 10px;
@@ -58,39 +39,62 @@ section{
 }
 
 .input:first-child{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .adicionar{
     width: 28%;
-    height: 55px;
-    padding: 10px;
+    padding: 18px;
     box-sizing: border-box;
     border-radius: 5px;
+    border-color: var(--green);
     font-size: 15px;
     color: var(--white);
     background: var(--green);
+
+    position: relative;
+    top: 3%;
+    transform: translateY(-3%)
 }
 
 #sortear{
-    width: 80%;
-    margin-top: 40px;
+    width: 90%;
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
-    height: 20%;
+    border-color: var(--green);
     background: var(--green);
     color: var(--white);
     font-size: 28px;
 }
 
 .mensagem{
-    width: 300px;
+    width: 350px;
     margin-top: 20px;    
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
-.mensagem h1{
+.mensagem h1{  
     color: var(--white);
+    font-size: 31px;
+    padding: 0 20px;
+}
+
+.mensagem h2{
+    color: var(--white);
+    font-size: 28px;
+    padding: 0 20px;
+}
+
+#alerta{
+    background-color: var(--green);
+    color: var(--white);
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
     font-size: 30px;
+    text-align: center;
 }
