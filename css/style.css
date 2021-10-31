@@ -19,8 +19,8 @@ section{
 }
 
 .container{
-    width: 350px;
-    margin-top: 100px;    
+    width: 300px;
+    margin-top: 50px;    
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -29,7 +29,7 @@ section{
 }
 
 .input{
-    width: 50%;
+    width: 44%;
     padding: 15px;
     border-radius: 5px;
     border: 2px solid var(--green);
@@ -43,7 +43,7 @@ section{
 }
 
 .adicionar{
-    width: 28%;
+    width: 34%;
     padding: 18px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -51,6 +51,7 @@ section{
     font-size: 15px;
     color: var(--white);
     background: var(--green);
+    text-align: center;
 
     position: relative;
     top: 3%;
@@ -70,7 +71,7 @@ section{
 }
 
 .mensagem{
-    width: 350px;
+    width: 300px;
     margin-top: 20px;    
     margin-left: auto;
     margin-right: auto;
@@ -78,20 +79,20 @@ section{
 
 .mensagem h1{  
     color: var(--white);
-    font-size: 31px;
+    font-size: 26px;
     padding: 0 20px;
 }
 
 .mensagem h2{
     color: var(--white);
-    font-size: 28px;
+    font-size: 24px;
     padding: 0 20px;
 }
 
 #alerta{
     background-color: var(--green);
     color: var(--white);
-    width: 350px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
